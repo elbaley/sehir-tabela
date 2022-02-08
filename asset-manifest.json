@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sehir-tabela/static/css/main.0cc8c026.css",
+    "main.js": "/sehir-tabela/static/js/main.4151d9f9.js",
+    "index.html": "/sehir-tabela/index.html",
+    "main.0cc8c026.css.map": "/sehir-tabela/static/css/main.0cc8c026.css.map",
+    "main.4151d9f9.js.map": "/sehir-tabela/static/js/main.4151d9f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cc8c026.css",
+    "static/js/main.4151d9f9.js"
+  ]
+}
