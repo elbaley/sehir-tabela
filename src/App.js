@@ -6,7 +6,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/">
+				<Route path="/sehir-tabela">
 					<Route index element={<Tabela />} />
 					<Route path=":cityId" element={<Tabela />} />
 				</Route>
