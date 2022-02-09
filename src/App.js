@@ -10,7 +10,7 @@ import Tabela from './components/Tabela';
 
 function App() {
 	return (
-		<HashRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Routes>
 				<Route path="/sehir-tabela">
 					<Route index element={<Tabela />} />
@@ -26,7 +26,7 @@ function App() {
 					}
 				/>
 			</Routes>
-		</HashRouter>
+		</BrowserRouter>
 	);
 }
 
