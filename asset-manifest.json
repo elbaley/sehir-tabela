@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sehir-tabela/static/css/main.0cc8c026.css",
-    "main.js": "/sehir-tabela/static/js/main.da526517.js",
+    "main.js": "/sehir-tabela/static/js/main.388ba76e.js",
     "index.html": "/sehir-tabela/index.html",
     "main.0cc8c026.css.map": "/sehir-tabela/static/css/main.0cc8c026.css.map",
-    "main.da526517.js.map": "/sehir-tabela/static/js/main.da526517.js.map"
+    "main.388ba76e.js.map": "/sehir-tabela/static/js/main.388ba76e.js.map"
   },
   "entrypoints": [
     "static/css/main.0cc8c026.css",
-    "static/js/main.da526517.js"
+    "static/js/main.388ba76e.js"
   ]
 }
