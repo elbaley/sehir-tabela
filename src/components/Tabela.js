@@ -545,7 +545,9 @@ const Tabela = () => {
 								: (newSelectedCity = cityId.toString());
 							setSelectedCity(newSelectedCity);
 							navigate(
-								cityId < 10 ? `/0${cityId}` : `/${cityId}`
+								cityId < 10
+									? `/sehir-tabela/0${cityId}`
+									: `/sehir-tabela/${cityId}`
 							);
 						} else {
 							return -1;
@@ -568,7 +570,9 @@ const Tabela = () => {
 		}
 		// if user gives 1-9 turn them into 01-09 and navigate to correct url path
 		navigate(
-			selectedCity.length < 2 ? `/0${selectedCity}` : `/${selectedCity}`
+			selectedCity.length < 2
+				? `/sehir-tabela/0${selectedCity}`
+				: `/sehir-tabela/${selectedCity}`
 		);
 		selectedCity.length < 2
 			? setSelectedCity(`0${selectedCity}`)

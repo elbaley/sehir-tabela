@@ -1,10 +1,16 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import {
+	BrowserRouter,
+	Routes,
+	Route,
+	Link,
+	HashRouter,
+} from 'react-router-dom';
 import './App.css';
 import Tabela from './components/Tabela';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route path="/sehir-tabela">
 					<Route index element={<Tabela />} />
@@ -20,7 +26,7 @@ function App() {
 					}
 				/>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
